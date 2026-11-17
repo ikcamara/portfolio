@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js" defer></script>
+    <title>Ibrahima Kalil Camara | Portfolio</title>
+</head>
+<body class = "bg-slate-950 text-stone-100">
+<div class =" mx-auto max-w-6xl px-4">
+
+    <nav id = "haut" class ="flex flex-wrap items-center justify-between gap-4 border border-slate-800 py-4">
+        <div class = "flex flex-wrap gap-4">
+            Ibrahima Kalil  Camara
+        </div>
+        <div>
+            <a href="#projets" class = "hover:text-emerald-300 focus-visible:text-emerald-300">projets</a>
+            <a href="#parcours" class = "hover:text-emerald-300 focus-visible:text-emerald-300">parcours</a>
+            <a href="#contact" class = "hover:text-emerald-300 focus-visible:text-emerald-300">contact</a>
+        </div>
+    </nav>
+    <header class = "px-6 py-12">
+        <h1 class = "text-stone-100 text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight" >Ibrahima Kalil <br>Camara</h1>
+        <p class = "mt-8 max-w-xl text-slate-300 leading-relaxed">
+            Étudiant en informatique et IA à l’ESEO Angers, je développe des applications web en Python.<br>
+            J’apprends aussi à utiliser Python pour la data science et le machine learning, ainsi qu’à intégrer des modèles d’IA dans mes projets.
+        </p>
+        <div class-="mt-6 flex flex-wrap items-center gap-4">
+            <a href="#projets" class="inline-block  bg-emerald-300 text-slate-950 px-5 py-3 rounded-lg font-semibold hover:bg-emerald-200">Voir mes projets</a>
+            <a href="cv.pdf"class = "rounded-lg border border-emerald-300 text-emerald-300 px-5 py-3" download>Télécharger mon CV</a>
+        </div>
+    </header>
+
+    <section id = "projets" class = "px-6 py-12">
+        <h2 class = "text-3xl font-bold">Mes projets</h2>
+
+
+
+        <div class = " mt-6 grid gap-6 md:grid-cols-2 border border-slate-600 rounded-xl p-6">
+
+            <div >
+                <img src="images/student-copilot.png" alt="tableau de bord de student copilot" class = "w-full rounded-lg shadow-lg">
+            </div>
+            <div>
+                <h3 class = "text-2xl font-bold">Student Copilot </h3>
+                <p class="mt-2">
+                    <strong>Description</strong><br>
+                    Student Copilot est une application web conçue pour aider les étudiants à réviser
+                    à partir de leurs propres cours.<br>
+                    Elle permet de ranger les documents PDF par matière et propose deux façons de travailler
+                    à partir de ces supports : poser des questions sur le contenu des cours et s’entraîner avec des quiz.
+                </p>
+
+                <p class="mt-2">
+                    <strong>Ma contribution</strong><br>
+                    Dans ce projet d’équipe, j’ai travaillé sur l’architecture et le backend Django.<br>
+                    Je me suis notamment occupé de la gestion des matières, en développant la fonctionnalité
+                    qui permet à chaque étudiant de créer ses propres matières pour organiser ses documents.<br>
+                    J’ai aussi corrigé des problèmes dans le fonctionnement des quiz et apporté plusieurs
+                    ajustements à l’intégration de l’IA dans l’application.
+                </p>
+
+            </div>
+        </div>
+
+
+
+
+
+        <div class="mt-6 grid gap-6 md:grid-cols-2">
+            <div class="grid gap-6 rounded-xl border border-slate-600 p-6">
+                <div>
+                    <img src="images/jeux.png"
+                         alt="Page d’accueil du site de jeux"
+                         class="w-full rounded-lg shadow-lg">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold">Jeux</h3>
+                    <p class="mt-2">
+                        <strong>Description</strong><br>
+                        Ce site web rassemble des jeux de réflexion, dont des sudokus et des jeux de mots.<br>
+                        Les visiteurs peuvent choisir un jeu depuis la page d’accueil et y jouer directement
+                        dans leur navigateur.
+                    </p>
+
+                    <p class="mt-2">
+                        <strong>Ma contribution</strong><br>
+                        J’ai participé à la plupart des étapes du projet, de la conception du site à sa publication.<br>
+                        J’ai contribué au développement des pages et des fonctionnalités de jeu,
+                        puis j’ai repris le projet pour le remettre en ligne.<br>
+                        Pour le déploiement, j’ai configuré l’hébergement et la base de données,
+                        transféré les fichiers sur le serveur et vérifié que le site s’affichait
+                        correctement depuis son adresse publique.
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid gap-6 rounded-xl border border-slate-600 p-6">
+                <div>
+                    <img src="images/cartes.png"
+                         alt="Aperçu de la carte du jumeau numérique"
+                         class="w-full rounded-lg shadow-lg">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold">Jumeau numérique</h3>
+                    <p class="mt-2">
+                        <strong>Description</strong><br>
+                        Ce projet de jumeau numérique représente le réseau de bus et de tramways d’Angers
+                        sur une carte interactive.<br>
+                        La carte permet de consulter les arrêts et les itinéraires des lignes,
+                        ainsi que de suivre les véhicules en temps réel.
+                    </p>
+
+                    <p class="mt-2">
+                        <strong>Ma contribution</strong><br>
+                        J’ai développé la carte interactive avec Leaflet et intégré les arrêts
+                        ainsi que le tracé des itinéraires sur la carte.<br>
+                        J’ai aussi mis en place le suivi en temps réel des véhicules pour que leur position
+                        s’actualise sur la carte au fil de leurs déplacements.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id = "competences" class = "mt-12">
+        <h2 class ="text-3xl font-bold">Competences</h2>
+        <div class="mt-6 grid gap-6 md:grid-cols-2">
+            <div class="rounded-xl border border-slate-600 p-6">
+                <h3 class="text-xl font-bold text-emerald-300">Dans mes projets</h3>
+
+                <ul class="mt-4 divide-y divide-slate-800
+               [&>li]:flex [&>li]:items-start [&>li]:gap-3 [&>li]:py-3
+               [&_iconify-icon]:size-9 [&_iconify-icon]:shrink-0
+               [&_iconify-icon]:rounded-lg [&_iconify-icon]:bg-slate-800
+               [&_iconify-icon]:p-2 [&_iconify-icon]:text-xl
+               [&_iconify-icon]:text-emerald-300">
+                    <li>
+                        <iconify-icon icon="devicon:python" aria-hidden="true"></iconify-icon>
+                        <span><strong>Python</strong> — Développement d’applications et programmation orientée objet.</span>
+                    </li>
+                    <li>
+                        <iconify-icon icon="simple-icons:django" aria-hidden="true"></iconify-icon>
+                        <span><strong>Django</strong> — Développement du backend de Student Copilot, notamment pour la gestion des matières.</span>
+                    </li>
+                    <li>
+                        <iconify-icon icon="devicon:git" aria-hidden="true"></iconify-icon>
+                        <span><strong>Git</strong> — Gestion des versions, travail sur des branches et collaboration via des pull requests.</span>
+                    </li>
+                    <li>
+                        <iconify-icon icon="simple-icons:leaflet" aria-hidden="true"></iconify-icon>
+                        <span><strong>Leaflet</strong> — Réalisation d’une carte interactive pour afficher les arrêts, les itinéraires et la position des véhicules à Angers.</span>
+                    </li>
+                    <li>
+                        <iconify-icon icon="devicon:html5" aria-hidden="true"></iconify-icon>
+                        <span><strong>HTML</strong> — Structuration des pages web avec des titres, des sections, des liens et des formulaires.</span>
+                    </li>
+                    <li>
+                        <iconify-icon icon="devicon:css3" aria-hidden="true"></iconify-icon>
+                        <span><strong>CSS</strong> — Mise en forme des interfaces et adaptation aux différentes tailles d’écran.</span>
+                    </li>
+                    <li>
+                        <iconify-icon icon="devicon:php" aria-hidden="true"></iconify-icon>
+                        <span><strong>PHP</strong> — Développement de fonctionnalités côté serveur pour mes projets web.</span>
+                    </li>
+                    <li>
+                        <iconify-icon icon="devicon:javascript" aria-hidden="true"></iconify-icon>
+                        <span><strong>JavaScript</strong> — Ajout d’interactions dans le navigateur, notamment sur la carte des transports d’Angers.</span>
+                    </li>
+                    <li>
+                        <iconify-icon icon="lucide:database" aria-hidden="true"></iconify-icon>
+                        <span><strong>SQL</strong> — Interrogation et manipulation de données dans des bases relationnelles.</span>
+                    </li>
+                    <li>
+                        <iconify-icon icon="devicon:java" aria-hidden="true"></iconify-icon>
+                        <span><strong>Java</strong> — Mise en pratique de la programmation orientée objet avec des classes et des objets.</span>
+                    </li>
+                    <li>
+                        <iconify-icon icon="devicon:tailwindcss" aria-hidden="true"></iconify-icon>
+                        <span><strong>Tailwind CSS</strong> — Création des grilles, des cartes et de la mise en page responsive de ce portfolio.</span>
+                    </li>
+                    <li>
+                        <iconify-icon icon="lucide:clipboard-list" aria-hidden="true"></iconify-icon>
+                        <span><strong>Gestion de projet</strong> — Analyse des besoins, découpage des tâches et suivi de l’avancement en équipe.</span>
+                    </li>
+                    <li>
+                        <iconify-icon icon="lucide:repeat" aria-hidden="true"></iconify-icon>
+                        <span><strong>Agilité et Scrum</strong> — Organisation du travail par étapes, priorisation des tâches et ajustement des objectifs en équipe.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="rounded-xl border border-slate-600 p-6">
+                <h3 class="text-xl font-bold text-emerald-300">En cours d’apprentissage</h3>
+
+                <ul class="mt-4 divide-y divide-slate-800
+               [&>li]:flex [&>li]:items-start [&>li]:gap-3 [&>li]:py-3
+               [&_iconify-icon]:size-9 [&_iconify-icon]:shrink-0
+               [&_iconify-icon]:rounded-lg [&_iconify-icon]:bg-slate-800
+               [&_iconify-icon]:p-2 [&_iconify-icon]:text-xl
+               [&_iconify-icon]:text-emerald-300">
+                    <li>
+                        <iconify-icon icon="devicon:fastapi" aria-hidden="true"></iconify-icon>
+                        <span><strong>FastAPI</strong> — Création d’API REST en Python et validation des données reçues.</span>
+                    </li>
+                    <li>
+                        <iconify-icon icon="devicon:numpy" aria-hidden="true"></iconify-icon>
+                        <span><strong>NumPy</strong> — Manipulation de tableaux numériques et opérations sur des ensembles de données.</span>
+                    </li>
+                    <li>
+                        <iconify-icon icon="devicon:pandas" aria-hidden="true"></iconify-icon>
+                        <span><strong>pandas</strong> — Lecture, nettoyage et analyse de données tabulaires.</span>
+                    </li>
+                    <li>
+                        <iconify-icon icon="devicon:scikitlearn" aria-hidden="true"></iconify-icon>
+                        <span><strong>scikit-learn</strong> — Entraînement et évaluation de premiers modèles de machine learning.</span>
+                    </li>
+                    <li>
+                        <iconify-icon icon="devicon:streamlit" aria-hidden="true"></iconify-icon>
+                        <span><strong>Streamlit</strong> — Création d’interfaces en Python pour présenter des analyses et des démos IA.</span>
+                    </li>
+                    <li>
+                        <iconify-icon icon="lucide:brain-circuit" aria-hidden="true"></iconify-icon>
+                        <span><strong>Intégration de modèles d’IA</strong> — Utilisation de modèles existants dans des applications Python, notamment via des API.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <section id = "parcours" class="mt-12">
+        <h2 class="text-3xl font-bold">Parcours</h2>
+        <div class="mt-6 rounded-xl border border-slate-600 p-6">
+            <h3>Bachelor Informatique et IA</h3>
+            <p>ESEO Angers</p>
+            <p>
+                À l’ESEO Angers, je développe mes compétences en programmation et en développement web à travers des projets d’équipe.<br>
+                En parallèle, j’approfondis l’utilisation de Python pour l’analyse de données et le machine learning.
+            </p>
+
+        </div>
+
+
+    </section>
+
+    <section id="contact" class = "mt-12 rounded-xl border border-emerald-950/30 px-6 py-10 text-center">
+        <h2 class = "text-3xl font-bold">Contact</h2>
+        <p class = "mt-2 text-emerald-300">Je cherche un stage ou une alternance en developpement IA</p>
+        <div class="mt-4 flex flex-wrap gap-3 justify-center">
+            <a href="mailto:ibrahimakalilc388@gmail.com" >Me contacter</a>
+            <a href="https://github.com/ikcamara">Voir mon github</a>
+            <a href="cv.pdf" download>Télécharger mon CV</a>
+
+        </div>
+
+    </section>
+    <footer class = "mt-10 border-t border-slate-800 py-6 flex flex-wrap justify-between gap-2 text-sm text-slate-400">
+        <p>Ibrahima Kalil Camara</p>
+        <a href="#haut">Retour en haut</a>
+    </footer>
+
+</div>
+
+
+
+
+
+    
+</body>
+</html>
